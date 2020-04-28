@@ -43,7 +43,7 @@ static void GDTCORReachabilityCallback(SCNetworkReachabilityRef reachability,
   SCNetworkConnectionFlags _callbackFlags;
 }
 
-+ (void)load {
++ (void)initialize {
   [self sharedInstance];
 }
 
